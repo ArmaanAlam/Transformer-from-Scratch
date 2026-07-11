@@ -71,7 +71,7 @@ POST /translate  ──►  app.py (Streamlit UI)
 
 ---
 
-## ⚠️ Known Issues to Fix Before Serving
+## Known Issues to Fix Before Serving
 
 ### 1. `inference.py` contains dummy placeholders
 
