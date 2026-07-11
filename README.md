@@ -9,9 +9,9 @@ A from-scratch PyTorch implementation of the original Transformer (Vaswani et al
 The following figure provides a high-level overview of the complete Transformer architecture proposed in the **Attention Is All You Need** paper. It illustrates how the encoder and decoder interact through the attention mechanism while also showing how Query (Q), Key (K), and Value (V) vectors are generated to compute attention scores.
 
 <p align="center">
-  <img src="images/transformer_overview.png"
-       alt="Complete Transformer Architecture"
-       width="1000"/>
+
+![Transformer Architecture](images/transformer_overview.png)
+
 </p>
 
 ### What this figure illustrates
@@ -300,5 +300,6 @@ These sinusoidal functions allow the model to capture the order of words while g
 2. Rename `fastapi.py` to avoid shadowing the `fastapi` package.
 3. Add `fastapi`, `uvicorn`, `streamlit`, `requests` to `requirements.txt`.
 4. Consider adding beam search as an alternative to greedy decoding for better translation quality.
-#   T r a n s f o r m e r - f r o m - S c r a t c h  
+#   T r a n s f o r m e r - f r o m - S c r a t c h 
+ 
  
